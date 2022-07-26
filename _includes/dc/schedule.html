@@ -36,6 +36,7 @@ The schedule for the different curricula are listed here:
 
 {% elsif site.curriculum == "dc-ecology" %}
 <div class="row">
+{% comment %}
   <div class="col-md-4">
     <h3>August 2</h3>
     <table class="table table-striped">
@@ -62,7 +63,7 @@ The schedule for the different curricula are listed here:
       <tr> <td>3:00</td> <td>END</td> </tr>
     </table>
   </div>
-{% comment %}		
+{% endcomment %}	
   <div class="col-md-4">
     <h3>August 3</h3>
     <table class="table table-striped">
@@ -89,7 +90,7 @@ The schedule for the different curricula are listed here:
           {% include warning-flavor.html %}
           {% endif %}
 	      </td></tr></div>
-{% endcomment %}	  
+{% comment %}	  
     <div class="col-md-4">
     <h3>August 4</h3>
     <table class="table table-striped">
@@ -119,6 +120,7 @@ The schedule for the different curricula are listed here:
       </tr>
     </table>
   </div>
+{% endcomment %}
 </div>
 
 {% elsif site.curriculum == "dc-genomics" %}
